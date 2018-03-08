@@ -9,3 +9,14 @@ Ensure you have this installed before proceeding further
 - Spring Tool Suite™ (STS) or others
 
 ## Usage
+
+
+```bash
+
+# login for generate token JWT
+curl -i -H "Content-Type: application/json" -X POST -d '{
+    "username": "admin",
+    "password": "password"
+}' http://localhost:8080/login
+
+```
